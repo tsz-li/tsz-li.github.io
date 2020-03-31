@@ -61,9 +61,16 @@ margin-right: 50em;
 }
 nav{
   position:fixed;
+  display: flex;
+  align-items: center;
   left:60em;
   top:6em;
-z-index: 100;
+  z-index: 100;
+  background-color: white;
+  border-radius: 50px;
+  padding-top: 15px;
+  padding-right: 25px;
+  
 }
 nav li{
   display: inline-block;
